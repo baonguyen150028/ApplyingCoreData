@@ -12,6 +12,13 @@
 		7F1E23F31DD4762E0005D28E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1E23F11DD4762E0005D28E /* Main.storyboard */; };
 		7F1E23F51DD4762E0005D28E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1E23F41DD4762E0005D28E /* Assets.xcassets */; };
 		7F1E23F81DD4762E0005D28E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1E23F61DD4762E0005D28E /* LaunchScreen.storyboard */; };
+		7F1E24001DD476470005D28E /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E23FF1DD476470005D28E /* CoreDataStack.swift */; };
+		7F1E24031DD4766D0005D28E /* toDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24011DD4766D0005D28E /* toDoList.xcdatamodeld */; };
+		7F1E24051DD4797F0005D28E /* ToDoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24041DD4797F0005D28E /* ToDoListController.swift */; };
+		7F1E24101DD4800F0005D28E /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E240E1DD4800F0005D28E /* Item+CoreDataClass.swift */; };
+		7F1E24111DD4800F0005D28E /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E240F1DD4800F0005D28E /* Item+CoreDataProperties.swift */; };
+		7F1E24131DD4B0D90005D28E /* ToDoFetchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */; };
+		7F1E24151DD4B9C40005D28E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24141DD4B9C40005D28E /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,13 @@
 		7F1E23F41DD4762E0005D28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F1E23F71DD4762E0005D28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F1E23F91DD4762E0005D28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1E23FF1DD476470005D28E /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		7F1E24021DD4766D0005D28E /* toDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = toDoList.xcdatamodel; sourceTree = "<group>"; };
+		7F1E24041DD4797F0005D28E /* ToDoListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoListController.swift; sourceTree = "<group>"; };
+		7F1E240E1DD4800F0005D28E /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataClass.swift"; path = "../Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		7F1E240F1DD4800F0005D28E /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "../Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoFetchResultController.swift; sourceTree = "<group>"; };
+		7F1E24141DD4B9C40005D28E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +70,17 @@
 			children = (
 				7F1E23ED1DD4762E0005D28E /* AppDelegate.swift */,
 				7F1E23EF1DD4762E0005D28E /* ViewController.swift */,
+				7F1E240E1DD4800F0005D28E /* Item+CoreDataClass.swift */,
+				7F1E240F1DD4800F0005D28E /* Item+CoreDataProperties.swift */,
 				7F1E23F11DD4762E0005D28E /* Main.storyboard */,
 				7F1E23F41DD4762E0005D28E /* Assets.xcassets */,
 				7F1E23F61DD4762E0005D28E /* LaunchScreen.storyboard */,
 				7F1E23F91DD4762E0005D28E /* Info.plist */,
+				7F1E23FF1DD476470005D28E /* CoreDataStack.swift */,
+				7F1E24011DD4766D0005D28E /* toDoList.xcdatamodeld */,
+				7F1E24041DD4797F0005D28E /* ToDoListController.swift */,
+				7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */,
+				7F1E24141DD4B9C40005D28E /* DetailViewController.swift */,
 			);
 			path = toDoListApp;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F1E24151DD4B9C40005D28E /* DetailViewController.swift in Sources */,
+				7F1E24111DD4800F0005D28E /* Item+CoreDataProperties.swift in Sources */,
+				7F1E24101DD4800F0005D28E /* Item+CoreDataClass.swift in Sources */,
+				7F1E24001DD476470005D28E /* CoreDataStack.swift in Sources */,
 				7F1E23F01DD4762E0005D28E /* ViewController.swift in Sources */,
 				7F1E23EE1DD4762E0005D28E /* AppDelegate.swift in Sources */,
+				7F1E24131DD4B0D90005D28E /* ToDoFetchResultController.swift in Sources */,
+				7F1E24051DD4797F0005D28E /* ToDoListController.swift in Sources */,
+				7F1E24031DD4766D0005D28E /* toDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,8 +328,22 @@
 				7F1E23FE1DD4762E0005D28E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F1E24011DD4766D0005D28E /* toDoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F1E24021DD4766D0005D28E /* toDoList.xcdatamodel */,
+			);
+			currentVersion = 7F1E24021DD4766D0005D28E /* toDoList.xcdatamodel */;
+			path = toDoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 7F1E23E21DD4762E0005D28E /* Project object */;
 }
