@@ -19,6 +19,7 @@
 		7F1E24111DD4800F0005D28E /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E240F1DD4800F0005D28E /* Item+CoreDataProperties.swift */; };
 		7F1E24131DD4B0D90005D28E /* ToDoFetchResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */; };
 		7F1E24151DD4B9C40005D28E /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24141DD4B9C40005D28E /* DetailViewController.swift */; };
+		7F1E24171DD4C2810005D28E /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1E24161DD4C2810005D28E /* DataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		7F1E240F1DD4800F0005D28E /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Item+CoreDataProperties.swift"; path = "../Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoFetchResultController.swift; sourceTree = "<group>"; };
 		7F1E24141DD4B9C40005D28E /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		7F1E24161DD4C2810005D28E /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				7F1E24041DD4797F0005D28E /* ToDoListController.swift */,
 				7F1E24121DD4B0D90005D28E /* ToDoFetchResultController.swift */,
 				7F1E24141DD4B9C40005D28E /* DetailViewController.swift */,
+				7F1E24161DD4C2810005D28E /* DataSource.swift */,
 			);
 			path = toDoListApp;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				7F1E23EE1DD4762E0005D28E /* AppDelegate.swift in Sources */,
 				7F1E24131DD4B0D90005D28E /* ToDoFetchResultController.swift in Sources */,
 				7F1E24051DD4797F0005D28E /* ToDoListController.swift in Sources */,
+				7F1E24171DD4C2810005D28E /* DataSource.swift in Sources */,
 				7F1E24031DD4766D0005D28E /* toDoList.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
