@@ -11,6 +11,7 @@ import CoreData
 import UIKit
 
 class ToDoFetchResultController: NSFetchedResultsController<Item>, NSFetchedResultsControllerDelegate {
+    
     private let tableView: UITableView
 
     init(managedObjectContext: NSManagedObjectContext, withTableView tableView: UITableView) {

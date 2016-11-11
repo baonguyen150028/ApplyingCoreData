@@ -21,6 +21,7 @@ class DataController: NSObject {
         let urls = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         return urls[urls.endIndex - 1]
     }()
+
     private lazy var managedObjectModel: NSManagedObjectModel = {
         let modelURL = Bundle.main.url(forResource: "toDoList", withExtension: "momd")!
 
@@ -51,6 +52,7 @@ class DataController: NSObject {
         managedObjectContext.persistentStoreCoordinator = coordinator
         return managedObjectContext
     }()
+    
     public func saveContext() {
         if managedObjectContext.hasChanges {
             do {
